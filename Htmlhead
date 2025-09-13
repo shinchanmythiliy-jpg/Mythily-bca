@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mythily y- Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>mythily y</h1>
+    <h3>Department of Computer application</h3>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#hobbies">Hobbies</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am Kiruthika from the Department of Computer application.  
+      I have completed my schooling in Govt Hr Sec School, Kasinayakkanpatti, Tirupattur.
+    </p>
+  </section>
+
+  <section id="hobbies">
+    <h2>My Hobbies</h2>
+    <ul id="hobbyList">
+      <li>Singing</li>
+      <li>Dancing</li>
+      <li>Drawing</li>
+    </ul>
+    <button class="btn" onclick="addHobby()">Add a Hobby</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 mythily y | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
